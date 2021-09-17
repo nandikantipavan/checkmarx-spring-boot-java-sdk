@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.github.checkmarx-ltd</groupId>
 	<artifactId>cx-spring-boot-sdk</artifactId>
- 	<version>0.5.00</version>
+ 	<version>0.5.01</version>
 	<name>cx-spring-boot-sdk</name>
 	<description>Checkmarx Java Spring Boot SDK</description>
 	<properties>
@@ -177,7 +177,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
+<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<version>1.6</version>
@@ -196,7 +196,7 @@
 						</configuration>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>	
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
